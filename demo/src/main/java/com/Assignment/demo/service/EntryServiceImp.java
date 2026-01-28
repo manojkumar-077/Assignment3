@@ -11,11 +11,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class EntryServiceImpl implements EntryService {
+public class EntryServiceImp implements EntryService {
 
     private final EntryRepository repository;
 
-    public EntryServiceImpl(EntryRepository repository) {
+    public EntryServiceImp(EntryRepository repository) {
         this.repository = repository;
     }
 
