@@ -24,7 +24,6 @@ public class EntryRequestDto {
     @NotBlank
     private String description;
 
-    // ✅ Standard getters and setters
     public BigDecimal getAmount() { return amount; }
     public void setAmount(BigDecimal amount) { this.amount = amount; }
 
